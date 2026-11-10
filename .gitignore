@@ -3,3 +3,4 @@ __pycache__/
 .env
 data/Sycophancy_Main.xlsx
 *.log
+docs/

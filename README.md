@@ -9,7 +9,7 @@ Code, data and results for our Mathematical Foundations of AI semester project.
 
 We test a four-agent medical assistant that keeps the agent making the diagnosis away from the user's social pressure. A triage agent sorts each follow-up message, a verifier checks any proposed diagnosis against the case, a blind re-assessor decides without seeing the user's wording, and a communicator writes the reply but cannot change the decision. We compare it with a plain model and with an anti-sycophancy prompt.
 
-The report is in `docs/Firm_but_Correctable_Initial_Results.docx` and the claim-by-claim check in `docs/Firm_but_Correctable_Validity_Report.docx`.
+The written report is submitted separately.
 
 ## Training graphs
 
@@ -43,7 +43,6 @@ File prefixes: `qwen7b`, `qwen14b` (main runs), `_evidence` (new-evidence turns)
 | `runner/` | GPU run script with a temperature guard, and helper scripts |
 | `data/` | Evidence turns (`evidence_turns.jsonl`); the discarded first version is kept as `evidence_turns_v1_INVALID.jsonl` |
 | `results/` | Every conversation (`*.jsonl`), summaries, statistics, hand-check sheets, figures |
-| `docs/` | Report, validity report, methodology design |
 
 ## Data
 
