@@ -2,11 +2,6 @@
 
 Code, data and results for our Mathematical Foundations of AI semester project.
 
-| Group member | Roll number |
-|---|---|
-| Muhammad Bilal Ashfaq | 26i-7671 |
-| Mujtaba Abbas | 26i-7626 |
-
 We test a four-agent medical assistant that keeps the agent making the diagnosis away from the user's social pressure. A triage agent sorts each follow-up message, a verifier checks any proposed diagnosis against the case, a blind re-assessor decides without seeing the user's wording, and a communicator writes the reply but cannot change the decision. We compare it with a plain model and with an anti-sycophancy prompt.
 
 The written report is submitted separately.
